@@ -1,0 +1,297 @@
+# Translation of Themes - Lovecraft in Russian
+# This file is distributed under the same license as the Themes - Lovecraft package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-11 23:06:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Lovecraft\n"
+
+#. Description of the plugin/theme
+msgid "Lovecraft is a beautiful two-column theme for bloggers. It features a responsive design, great typography, a full-width header image (which is replaced with the post thumbnail on single posts/pages), custom accent color support, custom logo support, editor style support, a Flickr widget, recent posts and recent comments widgets with thumbnails, and a full-width template. Demo: http://www.andersnoren.se/themes/lovecraft/"
+msgstr "Lovecraft – красивая тема в двух столбцах для блогов. У нее адаптивный дизайн, прекрасная типографика, изображение на всю ширину в верхних колонтитулах (а на страницах и в видах с единственной записью картина заменяется выбранным изображением данной страницы/записи), произвольный цвет акцента, поддержка произвольного логотипа, поддержка стиля редактора, с виджетами Flickr, последних записей и последних комментариев с миниатюрами, а также шаблон страницы на полную ширину. Демо: http://www.andersnoren.se/themes/lovecraft/"
+
+#. Theme Name of the plugin/theme
+msgid "Lovecraft"
+msgstr "Lovecraft"
+
+#. Translators: %1$s = post title, %2$s = post date
+#: widgets/recent-comments.php:61
+msgctxt "Translators: %1$s = post title, %2$s = post date"
+msgid "Comment to %1$s, posted %2$s"
+msgstr "Комментарий на «%1$s», опубликованный %2$s"
+
+#. Translators: %s = the title of the next post
+#: single.php:102
+msgctxt "Translators: %s = the title of the next post"
+msgid "Next post: %s"
+msgstr "Следующая запись: %s"
+
+#. Translators: %s = the title of the previous post
+#: single.php:92
+msgctxt "Translators: %s = the title of the previous post"
+msgid "Previous post: %s"
+msgstr "Предыдущая запись: %s"
+
+#. Translators: %s = search query text
+#: search.php:14 search.php:50
+msgctxt "Translators: %s = search query text"
+msgid "Search results: \"%s\""
+msgstr "Результат поиска: «%s»"
+
+#: functions.php:511
+msgid "Check this to display the sidebar on mobile. It is hidden on mobile as default."
+msgstr "Пометьте тут, чтобы показывать боковую панель на мобильных устройствах. По умолчанию она не отображается на мобильных устройствах."
+
+#: functions.php:510
+msgid "Show Sidebar on Mobile"
+msgstr "Отображать боковую панель на мобильном"
+
+#. Translators: %1$s = comment date, %2$s = comment time
+#: functions.php:428
+msgctxt "Translators: %1$s = comment date, %2$s = comment time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#. Translators: %1$s = current page, %2$s = max number of pages
+#: functions.php:245 index.php:22 search.php:22
+msgctxt "Translators: %1$s = current page, %2$s = max number of pages"
+msgid "Page %1$s of %2$s"
+msgstr "Страница %1$s из %2$s"
+
+#. Translators: %s = number of pingbacks
+#: comments.php:58
+msgctxt "Translators: %s = number of pingbacks"
+msgid "%s Pingback"
+msgid_plural "%s Pingbacks"
+msgstr[0] "%s уведомление"
+msgstr[1] "%s уведомления"
+msgstr[2] "%s уведомлений"
+
+#. Translators: %s = number of comments
+#: comments.php:22
+msgctxt "Translators: %s = number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментария"
+msgstr[2] "%s комментариев"
+
+#. Translators: %1$s = current page, %2$s ? max number of pages
+#: archive.php:23
+msgctxt "Translators: %1$s = current page, %2$s ? max number of pages"
+msgid "(Page %1$s of %2$s)"
+msgstr "(стр. %1$s из %2$s)"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page Template"
+msgstr "Шаблон на полную ширину экрана"
+
+#: widgets/recent-posts.php:167
+msgid "Number of posts to display"
+msgstr "Число отображаемых сообщений"
+
+#: widgets/recent-posts.php:8
+msgid "Displays recent blog entries."
+msgstr "Показывает последние записи блога."
+
+#: widgets/recent-comments.php:131 widgets/recent-posts.php:169
+msgid "Defaults to 5 if empty"
+msgstr "По умолчанию 5, если поле пустое"
+
+#: widgets/recent-comments.php:129
+msgid "Number of comments to display"
+msgstr "Число отображаемых комментариев"
+
+#: widgets/recent-comments.php:9
+msgid "Displays recent comments with user avatars."
+msgstr "Отображет свежие комментарии с аватарками пользователей."
+
+#: widgets/recent-comments.php:12
+msgid "Recent Comments"
+msgstr "Свежие комментарии"
+
+#: widgets/flickr-widget.php:92
+msgid "Number of images to display"
+msgstr "Число отображаемых изображений"
+
+#: widgets/flickr-widget.php:86
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr-id (используйте <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+
+#: widgets/flickr-widget.php:80 widgets/recent-comments.php:124
+#: widgets/recent-posts.php:162
+msgid "Title"
+msgstr "Название"
+
+#: widgets/flickr-widget.php:8
+msgid "Displays your latest Flickr photos."
+msgstr "Отображает ваши последние фотографии из Flickr."
+
+#: widgets/flickr-widget.php:10
+msgid "Flickr Widget"
+msgstr "Flickr-виджет"
+
+#: single.php:48
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: sidebar.php:25 widgets/recent-posts.php:10
+msgid "Recent Posts"
+msgstr "Последние сообщения"
+
+#: searchform.php:2
+msgid "Search form"
+msgstr "Форма поиска"
+
+#: search.php:60
+msgid "No results. Try again, would you kindly?"
+msgstr "Ничего не найден. Может быть, повторите попытку?"
+
+#: image.php:38
+msgid "Resolution:"
+msgstr "Разрешение:"
+
+#: functions.php:523
+msgid "Accent Color"
+msgstr "Цвет выделения"
+
+#: functions.php:486
+msgid "Upload a logo to replace the default site title in the header."
+msgstr "Загрузите логотип, который заменит название сайта, что по умолчанию отображается в верхних колонтитулах."
+
+#: functions.php:484 functions.php:495
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:479
+msgid "Allows you to customize theme settings for Lovecraft."
+msgstr "Позволяют вам изменить настройки темы Lovecraft."
+
+#: functions.php:476
+msgid "Options for Lovecraft"
+msgstr "Настройки для Lovecraft"
+
+#: functions.php:442
+msgid "Reply"
+msgstr "Ответ"
+
+#: functions.php:435
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:402
+msgid "Post author"
+msgstr "Автор записи"
+
+#: functions.php:385 functions.php:429 page.php:27 single.php:33
+msgid "Edit"
+msgstr "Править"
+
+#: functions.php:385
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:290
+msgid "Read More"
+msgstr "Читать далее"
+
+#: functions.php:172
+msgid "Widgets in this area will be shown in the right footer column."
+msgstr "Виджеты в этой области будут отображаться в правом столбце подвала."
+
+#: functions.php:170
+msgid "Footer Three"
+msgstr "Подвал три"
+
+#: functions.php:162
+msgid "Widgets in this area will be shown in the middle footer column."
+msgstr "Виджеты в этой области будут отображаться в середине подвала."
+
+#: functions.php:160
+msgid "Footer Two"
+msgstr "Подвал два"
+
+#: functions.php:152
+msgid "Widgets in this area will be shown in the left footer column."
+msgstr "Виджеты в этой области будут отображаться в левом столбце подвала."
+
+#: functions.php:150
+msgid "Footer One"
+msgstr "Подвал один"
+
+#: functions.php:142
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr "Виджеты в этой области будут отображатся в боковой панели."
+
+#: functions.php:140
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:37
+msgid "Theme by"
+msgstr "Автор темы:"
+
+#: footer.php:37
+msgid "Powered by"
+msgstr "создано с помощью"
+
+#: content.php:25
+msgid "Sticky post"
+msgstr "Запись-липучка"
+
+#: content-aside.php:34 content.php:38 single.php:30
+msgid "In"
+msgstr "в"
+
+#: content-aside.php:31 content.php:35 image.php:31 single.php:27
+msgid "On"
+msgstr "в"
+
+#: content-aside.php:29 content.php:33 image.php:29 single.php:25
+msgid "By"
+msgstr "Автор:"
+
+#: comments.php:110
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:85 functions.php:265 single.php:100
+msgid "Next"
+msgstr "Далее"
+
+#: comments.php:79 functions.php:255 single.php:90
+msgid "Previous"
+msgstr "Назад"
+
+#: comments.php:30
+msgid "Add Comment"
+msgstr "Добавить комментарий"
+
+#: 404.php:21
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Похоже, вы попытались посетить страницу, которой нет. Возможна, она была удалена, перемещена или вовсе никогда еë не было. Вы можете попробовать поиск с помощью этой формы."
+
+#: 404.php:15
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#. Author URI of the plugin/theme
+msgid "http://www.andersnoren.se"
+msgstr "http://www.andersnoren.se"
+
+#. Author of the plugin/theme
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.andersnoren.se/teman/lovecraft-wordpress-theme/"
+msgstr "http://www.andersnoren.se/teman/lovecraft-wordpress-theme/"
